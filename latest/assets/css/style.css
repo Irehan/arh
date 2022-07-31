@@ -1442,3 +1442,23 @@ section#about {
 	transition: top .1s .15s cubic-bezier(.33333, 0, .66667, .33333), transform .13s .22s cubic-bezier(.215, .61, .355, 1), -webkit-transform .13s .22s cubic-bezier(.215, .61, .355, 1)
 }
 /* ANIMATION END */
+@keyframes fn-link-arrow-effect-animation-in {
+	0% {
+			transform-origin: left center;
+			transform: scaleX(.2);
+	}
+
+	70% {
+			transform-origin: left center;
+			transform: scaleX(1);
+	}
+
+	71% {
+			transform-origin: right center;
+	}
+
+	100% {
+			transform-origin: right center;
+			transform: scaleX(.2);
+	}
+}
