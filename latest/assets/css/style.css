@@ -1,4 +1,31 @@
 @font-face {
+	font-family: 'Ibarra Real Nova';
+	src: url('../fonts/IbarraRealNova-Bold.woff2') format('woff2'),
+			url('../fonts/IbarraRealNova-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ibarra Real Nova';
+	src: url('../fonts/IbarraRealNova-Regular.woff2') format('woff2'),
+			url('../fonts/IbarraRealNova-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+			url('../fonts/Montserrat-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
 	font-family: 'icomoon';
 	src: url('../fonts/icomoon.eot');
 	src: url('../fonts/icomoon.eot') format('embedded-opentype'),
@@ -97,18 +124,18 @@ html {
 :root {
 	--themeColor: #333;
 	--fontColor: #41444b;
-	--headingFont: 'Ibarra Real Nova', serif;
-	--bodyFont: 'Montserrat', sans-serif;
+	--headingFont: 'Ibarra Real Nova';
+	--bodyFont: 'Montserrat';
 }
 h2 {
 	color: #333;
 	text-align: center;
-	font-weight: 700;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-family: var(--headingFont);
 	margin-bottom: 4.375rem !important;
 	font-size: 2.8125rem;
-	text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.3);
 }
 * {
 	margin: 0;
@@ -119,7 +146,7 @@ h2 {
 	outline: none;
 }
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat';
 	font-size: 1.125rem;
 	line-height: 1.875rem;
 }
@@ -977,6 +1004,9 @@ ul.navbar-nav.menunav {
 	    -ms-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
 }
+.navbar-nav.menunav li.active:before {
+	width: 7%;
+}
 }
 @media (max-width: 991px) {
 	div#aboutRight {
@@ -991,6 +1021,13 @@ section#about {
 }
 .projectsRev{
 	display: block;
+}
+.col-lg-6.aboutRight {
+	padding-top: 1.875rem;
+	text-align: center;
+}
+.navbar-nav.menunav li.active:before {
+	width: 10%;
 }
 }
 @media (max-width: 767px) {
@@ -1021,6 +1058,15 @@ section#about {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+}
+.footer{
+	text-align: center;
+}
+section#contactus {
+	padding-bottom: 1.875rem;
+}
+.navbar-nav.menunav li.active:before {
+	width: 20%;
 }
 }
 ::-webkit-scrollbar-track {
