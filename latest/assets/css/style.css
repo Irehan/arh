@@ -1065,6 +1065,10 @@ font-weight: bold;
 .downloadResume a{
 	background-color: #000;
 }
+#contactus iframe{
+	width: 100%;
+	height: 62.75rem;
+}
 @media (min-width: 1500px) {
 	.container {
 		max-width: none;
