@@ -1075,6 +1075,10 @@ a.clickToCall{
 	bottom: 40px;
 	z-index: 1;
 }
+span#current-year {
+	display: inline-block;
+	margin-right: 6px;
+}
 @media (min-width: 1500px) {
 	.container {
 		max-width: none;
