@@ -499,7 +499,7 @@ color: #fff;
 	-o-transition: .5s;
 	-webkit-transition: .5s;
 	transition: .5s;
-	height: 18.75rem;
+	min-height: 10.75rem;
 }
 #services .circle {
 	background-color: #333;
@@ -551,6 +551,7 @@ color: #fff;
 }
 .box p {
 	font-size: 1rem;
+	display: none;
 }
 .box:hover .circle {
 	background-color: #626262 !important;
