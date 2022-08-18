@@ -62,5 +62,12 @@ hamburger.addEventListener("click", function() {
 }, false);
 });
 }
-
+(function titleScroller(text) {
+    document.title = text;
+    setTimeout(function () {
+        titleScroller(text.substr(1) + text.substr(0, 1));
+    }, 500);
+}(" ALI REHAN HAIDER || Portfolio"));
+const year = document.querySelector('#current-year');
+year.innerHTML = new Date().getFullYear();
 }
