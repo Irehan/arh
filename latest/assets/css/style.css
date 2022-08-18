@@ -1074,6 +1074,19 @@ a.clickToCall{
 	right: 40px;
 	bottom: 40px;
 	z-index: 1;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	border-radius: 50%;
+}
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
 }
 span#current-year {
 	display: inline-block;
