@@ -1093,6 +1093,11 @@ span#current-year {
 	display: inline-block;
 	margin-right: 6px;
 }
+
+a.fn-item{
+	display: block;
+}
+
 @media (min-width: 1500px) {
 	.container {
 		max-width: none;
