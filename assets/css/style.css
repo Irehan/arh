@@ -7,7 +7,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-
 @font-face {
 	font-family: 'Ibarra Real Nova';
 	src: url('../fonts/IbarraRealNova-Regular.woff2') format('woff2'),
@@ -16,7 +15,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-
 @font-face {
 	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
@@ -25,7 +23,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-
 @font-face {
 	font-family: 'icomoon';
 	src: url('../fonts/icomoon.eot');
@@ -1110,11 +1107,9 @@ span#current-year {
 	display: inline-block;
 	margin-right: 6px;
 }
-
 a.fn-item{
 	display: block;
 }
-
 @media (min-width: 1500px) {
 	.container {
 		max-width: none;
@@ -1191,7 +1186,6 @@ section#about {
 #services .box {
 	height: 15.75rem;
 }
-
 .fn-item-content {
 	margin-bottom: 3.125rem;
 }
