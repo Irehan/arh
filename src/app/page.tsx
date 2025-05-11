@@ -199,17 +199,17 @@ const Portfolio = () => {
           </div>
           <div className="space-y-4 pt-5">
             <p>
-              I'm an experienced software engineer passionate about building engaging and accessible digital experiences
+              I{'’'}m an experienced software engineer passionate about building engaging and accessible digital experiences
               that combine thoughtful design with robust engineering. My work focuses on creating pixel-perfect,
               performance-optimized interfaces that are WCAG-compliant and user-friendly.
             </p>
             <p>
-              Currently, I'm a Front End Developer at <span className="text-[#64ffda]">Decode Meta Tech</span>, where I
+              Currently, I{'’'}m a Front End Developer at <span className="text-[#64ffda]">Decode Meta Tech</span>, where I
               develop enterprise-level web applications using React.js, TypeScript, and Tailwind CSS, with a strong
               emphasis on SEO and performance optimization.
             </p>
             <p>
-              Previously, I've worked at <span className="text-[#64ffda]">Eppeok Solutions</span> and{" "}
+              Previously, I{'’'}ve worked at <span className="text-[#64ffda]">Eppeok Solutions</span> and{" "}
               <span className="text-[#64ffda]">SZI Technologies</span>, where I modernized legacy systems, improved
               accessibility, and enhanced site performance through modern frameworks and tools like Webpack and Cloudflare
               CDN. I also managed a family cyber cafe business, honing skills in customer support and operational efficiency.
