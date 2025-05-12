@@ -185,7 +185,7 @@ const Portfolio = () => {
         </motion.div>
       </header>
 
-      <main className="main">
+      <main className="flex-1 overflow-visible main-content w-full lg:w-8/12">
         <motion.section
           id="about"
           className="flex flex-col max-w-3xl scroll-mt-20 lg:scroll-mt-0"
