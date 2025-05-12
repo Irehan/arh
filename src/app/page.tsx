@@ -199,27 +199,18 @@ const Portfolio = () => {
               About
             </h2>
           </div>
-          <div className="space-y-4 pt-5">
+          <div className="space-y-4 pt-1">
             <p>
-              I{'’'}m an experienced software engineer passionate about building engaging and accessible digital experiences
-              that combine thoughtful design with robust engineering. My work focuses on creating pixel-perfect,
-              performance-optimized interfaces that are WCAG-compliant and user-friendly.
+              I’m a front-end developer who thrives on building accessible, pixel-perfect interfaces that marry elegant design with rock-solid engineering. My sweet spot is creating digital experiences that are not only visually stunning but also optimized for performance, usability, and inclusivity.
             </p>
             <p>
-              Currently, I{'’'}m a Front End Developer at <span className="text-[#64ffda]">Decode Meta Tech</span>, where I
-              develop enterprise-level web applications using React.js, TypeScript, and Tailwind CSS, with a strong
-              emphasis on SEO and performance optimization.
+              Currently, I’m a Front End Developer at <span className="text-[#64ffda]">Decode Meta Tech</span>, where I craft enterprise-grade web applications using React.js, TypeScript, and Tailwind CSS. My focus is on delivering WCAG-compliant, SEO-optimized platforms that provide seamless user experiences across devices.
             </p>
             <p>
-              Previously, I{'’'}ve worked at <span className="text-[#64ffda]">Eppeok Solutions</span> and{" "}
-              <span className="text-[#64ffda]">SZI Technologies</span>, where I modernized legacy systems, improved
-              accessibility, and enhanced site performance through modern frameworks and tools like Webpack and Cloudflare
-              CDN. I also managed a family cyber cafe business, honing skills in customer support and operational efficiency.
+              In the past, I’ve worn many hats—modernizing legacy systems at <span className="text-[#64ffda]">Eppeok Solutions</span> and <span className="text-[#64ffda]">SZI Technologies</span> with tools like Webpack and Cloudflare CDN, and even managing a family cyber cafe, where I sharpened my customer support and operational skills. Each role taught me to blend creativity with technical precision.
             </p>
             <p>
-              I hold a Diploma in Graphic and Web Design from Arena Animation (2020), a B.A. (Honors) from JRN Rajasthan
-              Vidyapeeth (2011), and a certification from NIOS (2008). In my spare time, I enjoy climbing, reading, and
-              exploring new technologies.
+              I hold a Diploma in Graphic and Web Design from Arena Animation (2020), a B.A. (Honors) from JRN Rajasthan Vidyapeeth (2011), and an NIOS certification (2008). When I’m not coding, you’ll find me climbing, diving into a good book, or tinkering with the latest tech trends.
             </p>
           </div>
         </motion.section>
