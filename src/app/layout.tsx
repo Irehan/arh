@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.alirehanhaider.com/assets/archive-preview.jpg",
+        url: "https://www.alirehanhaider.com/assets/preview-image.jpg",
         width: 1200,
         height: 630,
         alt: "Project Archive Preview",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Project Archive | Ali Rehan Haider",
     description: "Explore the full archive of projects by Ali Rehan Haider, Front End Engineer.",
-    images: ["https://www.alirehanhaider.com/assets/archive-preview.jpg"],
+    images: ["https://www.alirehanhaider.com/assets/preview-image.jpg"],
   },
 };
 
