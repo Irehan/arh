@@ -9,6 +9,7 @@ import { useStickyHeaders } from "../hooks/useStickyHeaders";
 import { useActiveSection } from "../hooks/useActiveSection";
 import Link from "next/link";
 
+
 const imagePaths = ["/assets/1.webp", "/assets/2.webp", "/assets/g-force.webp", "/assets/8.webp"];
 
 type Section = { id: string; title: string };
@@ -290,7 +291,7 @@ const Portfolio = () => {
         <div className="mt-0 mb-2">
           <a
             className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-[#64ffda] focus-visible:text-[#64ffda] text-base"
-            href="/resume.pdf"
+            href="/assets/resume.pdf"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="View Full Résumé (opens in a new tab)"
