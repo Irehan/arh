@@ -1,36 +1,34 @@
-// src\app\layout.tsx
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // Import Inter
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-// Configure Inter font
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // Specify desired weights
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Project Archive | Ali Rehan Haider",
-  description: "Explore the full archive of projects by Ali Rehan Haider, Front End Engineer.",
+  title: "Ali Rehan Haider | Front End Engineer",
+  description: "Front End Engineer crafting accessible, pixel-perfect digital experiences for the web",
   openGraph: {
-    title: "Project Archive | Ali Rehan Haider",
-    description: "Explore the full archive of projects by Ali Rehan Haider, Front End Engineer.",
-    url: "https://www.alirehanhaider.com/archive",
+    title: "Ali Rehan Haider | Front End Engineer",
+    description: "Front End Engineer crafting accessible, pixel-perfect digital experiences for the web",
+    url: "https://www.alirehanhaider.com/",
     type: "website",
     images: [
       {
-        url: "https://www.alirehanhaider.com/assets/preview-image.jpg",
+        url: "https://www.alirehanhaider.com/assets/preview-image.jpg", // Remove ?v=1 if image is stable
         width: 1200,
         height: 630,
-        alt: "Project Archive Preview",
+        alt: "Ali Rehan Haider Portfolio Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Project Archive | Ali Rehan Haider",
-    description: "Explore the full archive of projects by Ali Rehan Haider, Front End Engineer.",
-    images: ["https://www.alirehanhaider.com/assets/preview-image.jpg"],
+    title: "Ali Rehan Haider | Front End Engineer",
+    description: "Front End Engineer crafting accessible, pixel-perfect digital experiences for the web",
+    images: ["https://www.alirehanhaider.com/assets/preview-image.jpg"], // Remove ? gó if image is stable
   },
 };
 
