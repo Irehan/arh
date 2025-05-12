@@ -185,7 +185,7 @@ const Portfolio = () => {
         </motion.div>
       </header>
 
-      <main className="flex-1 overflow-visible main-content w-full lg:w-8/12">
+      <main className="main">
         <motion.section
           id="about"
           className="flex flex-col max-w-3xl scroll-mt-20 lg:scroll-mt-0"
@@ -417,7 +417,7 @@ const Portfolio = () => {
           </Link>
         </div>
 
-        <footer className="pb-16 text-sm text-slate-300 md:w-[92%] sm:w-[65%]">
+        <footer className="lg:pb-16 text-sm text-slate-300 md:w-[92%] sm:w-[65%] sm:pb-0">
           <p>
             Loosely designed in{" "}
             <a

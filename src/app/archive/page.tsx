@@ -79,7 +79,7 @@ const projects = [
 const ArchivePage = () => {
     useGradientCursor();
     return (
-        <div className="min-h-screen bg-[#0a192f] text-[#8892b0] wrapper-box max-w-screen-xl mx-auto gradient-bg lg:py-24 py-16 px-6">
+        <div className="min-h-screen bg-[#0a192f] text-[#8892b0] archieve wrapper-box max-w-screen-xl mx-auto gradient-bg lg:py-24 py-16 px-6 sm:py-20">
             <header className="mb-12">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}

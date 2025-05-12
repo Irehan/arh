@@ -171,6 +171,10 @@ span.com-name:before {
     padding: 0 1.4rem;
   }
 
+  .archieve.wrapper-box {
+    padding: 2.625rem 1.4rem;
+  }
+
   .inner-exp {
     flex-flow: column;
     align-items: baseline;
