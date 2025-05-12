@@ -252,6 +252,7 @@ const Portfolio = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="ml-2 text-[#64ffda] hover:underline"
+                        aria-label={`Visit ${job.company} website (opens in a new tab)`}
                       >
                         <span className="inline-flex items-center text-sm font-semibold text-slate-200 group-hover:text-[#64ffda]">
                           {job.company}
@@ -359,6 +360,7 @@ const Portfolio = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-2 text-[#64ffda] hover:text-[#64ffda]/80"
+                      aria-label={`Visit ${project.title} website (opens in a new tab)`}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -415,7 +417,7 @@ const Portfolio = () => {
           </Link>
         </div>
 
-        <footer className="pb-16 text-sm text-slate-500 md:w-[92%] sm:w-[65%]">
+        <footer className="pb-16 text-sm text-slate-300 md:w-[92%] sm:w-[65%]">
           <p>
             Loosely designed in{" "}
             <a
