@@ -10,8 +10,28 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ali Rehan Haider | Front End Engineer",
-  description: "Front End Engineer crafting accessible, pixel-perfect digital experiences for the web",
+  title: "Project Archive | Ali Rehan Haider",
+  description: "Explore the full archive of projects by Ali Rehan Haider, Front End Engineer.",
+  openGraph: {
+    title: "Project Archive | Ali Rehan Haider",
+    description: "Explore the full archive of projects by Ali Rehan Haider, Front End Engineer.",
+    url: "https://www.alirehanhaider.com/archive",
+    type: "website",
+    images: [
+      {
+        url: "https://www.alirehanhaider.com/assets/archive-preview.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Project Archive Preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Project Archive | Ali Rehan Haider",
+    description: "Explore the full archive of projects by Ali Rehan Haider, Front End Engineer.",
+    images: ["https://www.alirehanhaider.com/assets/archive-preview.jpg"],
+  },
 };
 
 export default function RootLayout({
